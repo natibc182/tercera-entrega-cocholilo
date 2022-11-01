@@ -1,0 +1,51 @@
+.tortas {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(4 1fr);
+    grid-template-rows: repeat(2 1fr);
+    grid-template-areas: 
+    "torta1 torta2 torta3 torta4"
+    "torta5 torta6 torta7 torta8";
+    gap: 5px;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    div img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.torta1 {
+    grid-area: torta1;
+}
+
+.torta2 {
+    grid-area: torta2;
+}
+
+.torta3 {
+    grid-area: torta3;
+}
+
+.torta4 {
+    grid-area: torta4;
+}
+
+.torta5 {
+    grid-area: torta5;
+}
+
+.torta6 {
+    grid-area: torta6;
+}
+
+.torta7 {
+    grid-area: torta7;
+}
+
+.torta8 {
+    grid-area: torta8;
+}
+

@@ -1,0 +1,22 @@
+.cosasDulces {
+    color: #BA6F95;
+    font-family: 'Nunito', sans-serif;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    display: grid;
+    h3 {
+        font-size: 20px;
+        align-self: center;
+        justify-self: center;
+        display:grid;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+    &:hover {
+        opacity: 0.5;
+    }
+}
+

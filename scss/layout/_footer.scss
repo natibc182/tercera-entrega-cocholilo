@@ -1,0 +1,61 @@
+footer {
+    background-color:#BA6F95;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(8 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "h2 h2 email email telefono telefono facebook instagram";
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    h2 {
+        grid-area: h2;
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+}
+
+.email {
+    grid-area: email;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    img {
+        align-self:flex-start;
+        padding: 0 20px 0 0;
+    }
+        p {
+            align-self:flex-end;
+            justify-self: center;
+            margin-bottom: 0px;
+            font-size: 14px
+        }
+}
+
+
+.telefono {
+    grid-area: telefono;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    img {
+        align-self:flex-start;
+        padding: 0 20px 0 0;
+    }
+    p {
+        align-self:flex-end;
+        justify-self: center;
+        margin-bottom: 0px;
+        font-size: 14px
+    }
+}
+
+.instagram {
+    grid-area: instagram;
+}
+
+.facebook {
+    grid-area: facebook;
+}
