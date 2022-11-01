@@ -1,0 +1,24 @@
+@media (max-width:768px){
+    .profile {
+        height: 200px;
+    }
+
+    .email img {
+        padding: 0 0 0 0;
+}
+.introduccion {
+    p {
+        font-size: 12px;
+}
+}
+.tortas {
+    grid-template-columns: repeat(2 1fr);
+    grid-template-rows: repeat(4 1fr);
+    grid-template-areas: 
+    "torta1 torta2"
+    "torta3 torta4"
+    "torta5 torta6"
+    "torta7 torta8";   
+    height: 1500px;
+}
+}

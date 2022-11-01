@@ -1,3 +1,18 @@
+.fondoImagen {
+    background-image: url(../img/background.jpg)
+}
+
+.introduccion {
+    font-family: 'Nunito', sans-serif;
+    color: #BA6F95;
+    text-align: center;
+    padding-top: 20px;
+    p {
+        font-size: 16px;
+        padding: 0 50px;
+    }
+}
+
 .tortas {
     display: grid;
     justify-content: center;
