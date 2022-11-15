@@ -140,33 +140,57 @@
 .torta1 {
   grid-area: torta1;
 }
+.torta1:hover {
+  opacity: 0.5;
+}
 
 .torta2 {
   grid-area: torta2;
+}
+.torta2:hover {
+  opacity: 0.5;
 }
 
 .torta3 {
   grid-area: torta3;
 }
+.torta3:hover {
+  opacity: 0.5;
+}
 
 .torta4 {
   grid-area: torta4;
+}
+.torta4:hover {
+  opacity: 0.5;
 }
 
 .torta5 {
   grid-area: torta5;
 }
+.torta5:hover {
+  opacity: 0.5;
+}
 
 .torta6 {
   grid-area: torta6;
+}
+.torta6:hover {
+  opacity: 0.5;
 }
 
 .torta7 {
   grid-area: torta7;
 }
+.torta7:hover {
+  opacity: 0.5;
+}
 
 .torta8 {
   grid-area: torta8;
+}
+.torta8:hover {
+  opacity: 0.5;
 }
 
 .fondoVerde {
